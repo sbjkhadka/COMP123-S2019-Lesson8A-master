@@ -30,6 +30,13 @@ namespace COMP123_S2019_Lesson8A
             
         }
 
+       
+        private void ClearForm()
+        {
+            SubmitButton.Enabled = false;
+            NameTextBox.Clear();
+            AgeTextBox.Clear();
+        }
         private void SubmitButton_Click(object sender, EventArgs e)
         {
 
@@ -37,13 +44,7 @@ namespace COMP123_S2019_Lesson8A
             UserAge = float.Parse(AgeTextBox.Text);
             OutputLabel.Text = NameTextBox.Text + " " + AgeTextBox.Text;
             ClearForm();
-            
-        }
-        private void ClearForm()
-        {
-            SubmitButton.Enabled = false;
-            NameTextBox.Clear();
-            AgeTextBox.Clear();
+
         }
 
         /// <summary>

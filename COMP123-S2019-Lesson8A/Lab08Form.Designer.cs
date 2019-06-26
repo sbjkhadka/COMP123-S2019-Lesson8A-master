@@ -105,7 +105,7 @@
             // 
             this.SubmitButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.SubmitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SubmitButton.ForeColor = System.Drawing.Color.Coral;
+            this.SubmitButton.ForeColor = System.Drawing.Color.Brown;
             this.SubmitButton.Location = new System.Drawing.Point(483, 387);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Size = new System.Drawing.Size(127, 42);
