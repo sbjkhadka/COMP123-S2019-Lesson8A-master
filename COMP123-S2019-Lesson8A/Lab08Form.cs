@@ -30,7 +30,9 @@ namespace COMP123_S2019_Lesson8A
             
         }
 
-       
+       /// <summary>
+       /// clearing form + initialization
+       /// </summary>
         private void ClearForm()
         {
             SubmitButton.Enabled = false;
